@@ -78,7 +78,8 @@ theme: clexy
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: heroku
+  repo: https://git.heroku.com/pacific-journey-31585.git
 
 prism_plugin:
   mode: 'preprocess'    # realtime/preprocess
